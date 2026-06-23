@@ -1,17 +1,27 @@
 {
   "name": "jones-hometest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright automation project for Jones home assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "npm install && npx playwright install chromium",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DanielChernov99/Jones-HomeTest.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "playwright",
+    "automation",
+    "qa",
+    "jones"
+  ],
+  "author": "Daniel Chernov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DanielChernov99/Jones-HomeTest/issues"
