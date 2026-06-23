@@ -1,0 +1,23 @@
+{
+  "name": "jones-hometest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielChernov99/Jones-HomeTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielChernov99/Jones-HomeTest/issues"
+  },
+  "homepage": "https://github.com/DanielChernov99/Jones-HomeTest#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0"
+  }
+}
