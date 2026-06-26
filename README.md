@@ -1,10 +1,20 @@
 # Playwright Automation Project
 
-This project contains Playwright tests for the callback form on:
+This project contains Playwright automated tests for the callback form on:
 
 ```txt
 https://test.netlify.app/
 ```
+
+## Table of Contents
+
+* [What Is Covered](#what-is-covered)
+* [Project Structure](#project-structure)
+* [Setup](#setup)
+* [Running Tests](#running-tests)
+* [Test Suite](#test-suite)
+* [QA Observations](#qa-observations)
+* [Notes](#notes)
 
 ## What Is Covered
 
@@ -121,6 +131,20 @@ tests/form-ui.spec.js
 ```
 
 Checks that the main form fields and submit button are visible.
+
+## QA Observations
+
+Exploratory testing findings are documented in a separate file:
+
+[View QA Observations](./OBSERVATION.md)
+
+The observations file includes issues that were found manually during exploratory testing, such as:
+
+* Weak form validation
+* Submitted form data appearing in the URL
+* Mixed content warning caused by an HTTP resource on an HTTPS page
+
+These issues were documented separately because the automated tests focus on stable flows that should pass consistently.
 
 ## Notes
 
